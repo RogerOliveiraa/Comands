@@ -1,0 +1,27 @@
+
+Ativar portas USB
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsbStor]
+
+“Start”=dword:00000003
+
+
+
+*************************************************************************************************************
+
+
+Desativar portas USB
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsbStor]
+
+“Start”=dword:00000004
+
+Salvar arquivo como registro (.reg)
+
+Método para ativar e desativar portas USB em sistemas Windows
+
+Method to turn on or off usb port on a windows system
